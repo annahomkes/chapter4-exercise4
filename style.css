@@ -1,0 +1,95 @@
+/* Page layout to match the clean centered look */
+body {
+  margin: 0;
+  padding: 30px 18px 50px;
+  font-family: Georgia, "Times New Roman", serif;
+  color: #111;
+  background: #fff;
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
+
+/* Big name at top like screenshot */
+h1 {
+  font-size: 52px;
+  margin: 0 0 10px;
+  font-weight: 700;
+}
+
+/* Paragraph styling */
+p {
+  font-size: 20px;
+  margin: 0 0 26px;
+}
+
+/* Image and caption */
+figure {
+  margin: 0 0 34px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 2px;
+}
+
+figcaption {
+  font-size: 28px;
+  margin-top: 14px;
+  font-weight: 500;
+}
+
+/* Class Progress section */
+h2 {
+  font-size: 42px;
+  margin: 0 0 16px;
+  font-weight: 700;
+}
+
+.progress-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 18px 0;
+}
+
+.label {
+  min-width: 130px;
+  font-size: 22px;
+}
+
+/* Progress bar styling */
+progress {
+  width: 100%;
+  max-width: 520px;
+  height: 18px;
+  border: none;
+  background: #e6e6e6;
+  border-radius: 20px;
+}
+
+/* Chrome/Safari */
+progress::-webkit-progress-bar {
+  background-color: #e6e6e6;
+  border-radius: 20px;
+}
+
+progress::-webkit-progress-value {
+  background-color: #1e73ff;
+  border-radius: 20px;
+}
+
+/* Firefox */
+progress::-moz-progress-bar {
+  background-color: #1e73ff;
+  border-radius: 20px;
+}
+
+footer {
+  margin-top: 36px;
+  font-size: 18px;
+  color: #111;
+}
